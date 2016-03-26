@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- Data type that needs validation -->
+
+	<!-- Dayslot must be within the weekday -->
+	<xs:simpleType name="Tday">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Monday"/>
+			<xs:enumeration value="Tuesday"/>
+			<xs:enumeration value="Wednesday"/>
+			<xs:enumeration value="Thursday"/>
+			<xs:enumeration value="Friday"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- Time must be 4 digit -->
+	<xs:simpleType name="Ttime">
+		<xs:restriction base="xs:integer">
+			<xs:pattern value="[0-2][0-9][0-5][0-9]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+<!-- Structure -->
+	
+	<!-- a schedule contains 5 day elements -->
+	<xs:element name="schedule">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="dayslot" type="Tdayslot" maxOccurs="5"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<!-- a dayslot with an attribute that identifies the weekday and a number of periods -->
+	<xs:complexType name="Tdayslot">
+		<xs:sequence>			
+			<xs:element name="period" type="Tperiod" maxOccurs="4"/>
+		</xs:sequence>
+		<xs:attribute name="which" type="Tday" use="required"/>
+	</xs:complexType>
+	
+	<!-- a period with time (start and end) attributes and a booking -->
+	<xs:complexType name="Tperiod">
+		<xs:sequence>			
+			<xs:element name="booking" type="Tbooking" maxOccurs="4"/>
+		</xs:sequence>
+		<xs:attribute name="start" type="Ttime" use="required"/>
+		<xs:attribute name="end" type="Ttime" use="required"/>
+	</xs:complexType>
+	
+	<!-- a booking has several attributes, and several instances -->
+	<xs:complexType name="Tbooking">
+		<xs:attribute name="code" type="xs:string" use="required"/>
+		<xs:attribute name="coursename" type="xs:string" use="required"/>
+		<xs:attribute name="instructor" type="xs:string" use="required"/>
+		<xs:attribute name="room" type="xs:string" use="required"/>
+		<xs:attribute name="type" type="xs:string" use="required"/>
+	</xs:complexType>
+		
+</xs:schema>

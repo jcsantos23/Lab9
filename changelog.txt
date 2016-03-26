@@ -1,3 +1,8 @@
 DD/MM/YY @ hh:mm - Change Description (INITIAL)
 
 24/03/16 @ 16:00 - Created changelog.txt (JL)
+24/03/16 @ 13:55 - Created schedule.xsd (CS)
+24/03/16 @ 13:56 - Created schedule.xml (CS)
+
+24/03/16 @ 14:47 - Modified schedule.xml with appropriate data (CS)
+24/03/16 @ 14:52 - Modified schedule.xsd to correctly validate (CS)
