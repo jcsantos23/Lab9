@@ -7,7 +7,7 @@ class Welcome extends Application {
     public function index() {
         
         $this->data['pagebody'] = 'welcome';
-      //  $this->data['ValidationResults'] = $this->Timetable->validateSchema();
+    $this->data['ValidationResults'] = $this->timetable->schemaValidate();
         $this->render();
     }
     
