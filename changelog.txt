@@ -6,7 +6,7 @@ DD/MM/YY @ hh:mm - Change Description (INITIAL)
 
 24/03/16 @ 14:47 - Modified schedule.xml with appropriate data (CS)
 24/03/16 @ 14:52 - Modified schedule.xsd to correctly validate (CS)
-28/03/16 @ 19:28 - Altered schedule.xml formatting
+28/03/16 @ 19:28 - Altered schedule.xml formatting (JL)
 
-29/03/16 @ 1:24 - Created server validation code
-29/03/16 @ 1:48 - Created schema validation of xml
+29/03/16 @ 1:24 - Created server validation code (RD)
+29/03/16 @ 1:48 - Created schema validation of xml (RD)
