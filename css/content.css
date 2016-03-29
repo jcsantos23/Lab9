@@ -1,0 +1,50 @@
+#content {
+
+}
+
+.left-panel {
+    border-style: ridge;
+    border-color: #98AFC7;
+    float: left;
+    width: 48%;
+}
+
+.summary {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.right-panel {
+    border-style: ridge;
+    border-color: #98AFC7;
+    float: right;
+    width: 48%;	
+
+}
+.right-top{
+    
+}
+
+.right-bot{
+    
+}
+
+.table-left-game{
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumb{
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.pics{
+    text-align: right;
+}
