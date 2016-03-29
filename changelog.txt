@@ -6,3 +6,4 @@ DD/MM/YY @ hh:mm - Change Description (INITIAL)
 
 24/03/16 @ 14:47 - Modified schedule.xml with appropriate data (CS)
 24/03/16 @ 14:52 - Modified schedule.xsd to correctly validate (CS)
+28/03/16 @ 19:28 - Altered schedule.xml formatting
