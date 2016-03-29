@@ -49,7 +49,35 @@ class Timetable extends CI_Model {
             //$record->name = (string) $courseRecord['name'];
             //$record->aCourse[$record->code] = $record;
         }
+        
     }
+    
+      /**
+ * Schema xml validation
+ */
+  public function schemaValidate()
+	{
+		$doc = new DOMDocument();
+		$doc->load(DATAPATH . 'schedule.xml');
+		$schema = DATAPATH . 'schedule.xsd';
+		$results = array();
+		libxml_use_internal_errors(true);
+		if ($doc->schemaValidate($schema))
+		{
+			$results['resultCSS'] = 'schema_pass';
+			$results['ValidationResults'][]['message'] = "Validated against schema successfully.";
+		} else
+		{
+			$results['resultCSS'] = 'schema_fail';
+			$results[] = "<b>Oh noooo...</b><br />";
+			foreach (libxml_get_errors() as $error)
+			{
+				$results['ValidationResults'][]['message'] = $error->message;
+			}
+		}
+		libxml_clear_errors();
+		return $this->parser->parse('welcome', $results, true);
+	}
 
     /*
      * Public Accessors
@@ -119,30 +147,5 @@ class Booking extends CI_Model {
     }
 
     
-    /**
- * Schema xml validation
- */
-   public function validateSchema()
-	{
-		$doc = new DOMDocument();
-		$doc->load(DATAPATH . 'schedule.xml');
-		$schema = DATAPATH . 'schedule.xsd';
-		$results = array();
-		libxml_use_internal_errors(true);
-		if ($doc->validateSchema($schema))
-		{
-			$results['resultCSS'] = 'schema_pass';
-			$results['ValidationResults'][]['message'] = "Validation of schedule.xsd completed successfully.";
-		} else
-		{
-			$results['resultCSS'] = 'schema_fail';
-			$results[] = "<b>Fail validation</b><br />";
-			foreach (libxml_get_errors() as $error)
-			{
-				$results['ValidationResults'][]['message'] = $error->message;
-			}
-		}
-		libxml_clear_errors();
-		return $this->parser->parse('SchemaValidationOfXML', $results, true);
-	}
+  
 }
