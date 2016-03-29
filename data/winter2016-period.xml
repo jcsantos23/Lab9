@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE period SYSTEM 'schedule.dtd'>
+
+<period>
+    <timeslot duration="2" start="830" end="1020">
+        <pBooking>
+            <daySlot>Tuesday</daySlot>
+            <courseName>Enterprise Systems Admin Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Bethany Edmunds</instructor>
+        </pBooking>
+        <pBooking> 
+            <daySlot>Friday</daySlot>
+            <courseName>Intro to Business Intelligence Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Steve Fabiszewski</instructor>
+        </pBooking>
+    </timeslot>
+    
+    <timeslot duration="1" start="930" end="1020">
+        <pBooking>
+            <daySlot>Thursday</daySlot>
+            <courseName>Database Backup, Recover, Tuning Lecture</courseName>
+            <room>SW5-1750</room>
+            <instructor>Richard Chau</instructor>
+        </pBooking>
+    </timeslot> 
+    
+    <timeslot duration="2" start="1030" end="1220"> 
+        <pBooking> 
+            <daySlot>Monday</daySlot>
+            <courseName>Content Management Systems Admin Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Medhat Elmasry</instructor>
+        </pBooking>
+        <pBooking>
+            <daySlot>Thursday</daySlot>
+            <courseName>Database Backup, Recover, Tuning Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Richard Chau</instructor>
+        </pBooking>
+        <pBooking>
+            <daySlot>Friday</daySlot>
+            <courseName>Intro to Business Intelligence Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Steve Fabiszewski</instructor>
+        </pBooking>
+    </timeslot>
+    
+    <timeslot duration="1" start="1230" end="1320"> 
+        <pBooking>
+            <daySlot>Monday</daySlot>
+            <courseName>Enterprise Systems Admin Lecture</courseName>
+            <room>SW1-2009</room>
+            <instructor>Bethany Edmunds</instructor>
+        </pBooking>
+        <pBooking>
+            <daySlot>Tuesday</daySlot>
+            <courseName>Content Management Systems Admin Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Medhat Elmasry</instructor>
+        </pBooking>
+    </timeslot>
+    
+    <timeslot duration="2" start="1230" end="1420"> 
+        <pBooking>
+            <daySlot>Wednesday</daySlot>
+            <courseName>Integrative Programming and Technologies Lecture</courseName>
+            <room>SW3-1750</room>
+            <instructor>James Parry</instructor>
+        </pBooking>
+    </timeslot>
+    
+    <timeslot duration="2" start="1330" end="1520"> 
+        <pBooking> 
+            <daySlot>Thursday</daySlot>
+            <courseName>Integrative Programming and Technologies Lab</courseName>
+            <room>SE12-308</room>
+            <instructor>James Parry</instructor>
+        </pBooking>
+        <pBooking>
+            <daySlot>Friday</daySlot>
+            <courseName>Legal and Ethical Issues in IT</courseName>
+            <room>SE12-306</room>
+            <instructor>Trevor Lord</instructor>
+        </pBooking>
+    </timeslot>
+    
+    <timeslot duration="1" start="1530" end="1620"> 
+        <pBooking>
+            <daySlot>Monday</daySlot>
+            <courseName>Database Backup, Recovery, Tuning Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Richard Chau</instructor>
+        </pBooking>
+        <pBooking>
+            <daySlot>Tuesday</daySlot>
+            <courseName>Enterprise Systems Admin Lecture</courseName>
+            <room>SW3-3615</room>
+            <instructor>Bethany Edmunds</instructor>
+        </pBooking>
+    </timeslot>
+    <timeslot duration="1" start="1630" end="1720"> 
+        <pBooking>
+            <daySlot>Monday</daySlot>
+            <courseName>Content Management Systems Admin Lecture</courseName>
+            <room>SE6-205</room>
+            <instructor>Medhat Elmasry</instructor>
+        </pBooking>
+    </timeslot>
+</period>

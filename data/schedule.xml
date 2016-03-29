@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="schedule.xsd">
+	
+	<dayslot which="Monday">
+		<period start="1030" end="1220">
+			<booking code="ACIT4650" coursename="Content Mananagement Systems Administration" 
+                                 instructor="Medhat Elmasry" room="SE12-306" type="Lab"/>
+		</period>
+		
+		<period start="1230" end="1320">
+			<booking code="ACIT4620" coursename="Enterprise Systems Administration" 
+                                 instructor="Bethany Edmunds" room="SW1-2009" type="Lecture"/>
+		</period>
+		
+		<period start="1530" end="1620">
+			<booking code="ACIT4910" coursename="Database Backup, Recovery, and Tuning" 
+                                 instructor="Richard Chau" room="SW1-2005" type="Lecture"/>
+		</period>
+		
+		<period start="1630" end="1720">
+			<booking code="ACIT4650" coursename="Content Mananagement Systems Administration" 
+                                 instructor="Medhat Elmasry" room="SE6-205" type="Lecture"/>
+		</period>
+	</dayslot>
+	
+	<dayslot which="Tuesday">
+		<period start="0830" end="1020">
+			<booking code="ACIT4620" coursename="Enterprise Systems Administration" 
+                                 instructor="Bethany Edmunds" room="SE12-306" type="Lab"/>
+		</period>
+		
+		<period start="1230" end="1320">
+			<booking code="ACIT4650" coursename="Content Mananagement Systems Administration" 
+                                 instructor="Medhat Elmasry" room="SE6-205" type="Lecture"/>
+		</period>
+		
+		<period start="1530" end="1720">
+			<booking code="ACIT4620" coursename="Enterprise Systems Administration" 
+                                 instructor="Bethany Edmunds" room="SW1-2020" type="Lecture"/>
+		</period>
+	</dayslot>
+	
+	<dayslot which="Wednesday">
+		<period start="1230" end="1420">
+			<booking code="ACIT4850" coursename="Integrative Programming and Technologies" 
+                                 instructor="James Parry" room="SE6-207" type="Lecture"/>
+		</period>
+	</dayslot>
+	
+	<dayslot which="Thursday">
+		<period start="0930" end="1020">
+			<booking code="ACIT4910" coursename="Database Backup, Recovery, and Tuning" 
+                                 instructor="Richard Chau" room="SW1-1205" type="Lecture"/>
+		</period>
+		
+		<period start="1030" end="1220">
+			<booking code="ACIT4910" coursename="Database Backup, Recovery, and Tuning" 
+                                 instructor="Richard Chau" room="SE12-306" type="Lab"/>
+		</period>
+		
+		<period start="1330" end="1520">
+			<booking code="ACIT4850" coursename="Integrative Programming and Technologies" 
+                                 instructor="James Parry" room="SE12-308" type="Lab"/>
+		</period>
+	</dayslot>
+	
+	<dayslot which="Friday">
+		<period start="0830" end="1020">
+			<booking code="ACIT4660" coursename="Introduction to Business Intelligence" 
+                                 instructor="Steve Fabiszewski" room="SW9-206" type="Lecture"/>
+		</period>
+		
+		<period start="1030" end="1220">
+			<booking code="ACIT4660" coursename="Introduction to Business Intelligence" 
+                                 instructor="Steve Fabiszewski" room="SE12-306" type="Lab"/>
+		</period>
+		
+		<period start="1330" end="1520">
+			<booking code="ACIT4770" coursename="Legal and Ethical Issues in IT" 
+                                 instructor="Trevor Lord" room="SE12-306" type="Tutorial"/>
+		</period>
+	</dayslot>
+	
+</schedule>

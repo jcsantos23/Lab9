@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE course SYSTEM 'schedule.dtd'>
+
+<course>
+    <aCourse code="ACIT4620" name="Enterprise Systems Administration">
+        <cBooking type="Lecture">
+            <daySlot>Monday</daySlot>
+            <timeStart>1230</timeStart>
+            <timeEnd>1320</timeEnd>
+            <room>SW1-2009</room>
+            <instructor>Bethany Edmunds</instructor>
+        </cBooking>
+        <cBooking type="Lab">
+            <daySlot>Tuesday</daySlot>
+            <timeStart>0830</timeStart>
+            <timeEnd>1020</timeEnd>
+            <room>SE12-306</room>
+            <instructor>Bethany Edmunds</instructor>
+        </cBooking>
+        <cBooking type="Lecture">
+            <daySlot>Tuesday</daySlot>
+            <timeStart>1530</timeStart>
+            <timeEnd>1620</timeEnd>
+            <room>SW3-3615</room>
+            <instructor>Bethany Edmunds</instructor>
+        </cBooking>
+    </aCourse>
+    <aCourse code="ACIT4650" name="Collaboration and Content Management Systems Administration">
+        <cBooking type="Lab">
+            <daySlot>Monday</daySlot>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <room>SE12-306</room>
+            <instructor>Medhat Elmasry</instructor> 
+        </cBooking>
+        <cBooking type="Lecture">
+            <daySlot>Monday</daySlot>
+            <timeStart>1630</timeStart>
+            <timeEnd>1720</timeEnd>
+            <room>SE6-205</room>
+            <instructor>Medhat Elmasry</instructor>
+        </cBooking>
+        <cBooking type="Lecture">
+            <daySlot>Tuesday</daySlot>
+            <timeStart>1230</timeStart>
+            <timeEnd>1320</timeEnd>
+            <room>SW9-206</room>
+            <instructor>Medhat Elmasry</instructor>
+        </cBooking>
+    </aCourse>
+    <aCourse code="ACIT4660" name="Introduction to Business Intelligence">
+        <cBooking type="Lecture">
+            <daySlot>Friday</daySlot>
+            <timeStart>0830</timeStart>
+            <timeEnd>1020</timeEnd>
+            <room>SW9-206</room>
+            <instructor>Stephen Fabiszewski</instructor>
+        </cBooking>
+        <cBooking type="Lab">
+            <daySlot>Friday</daySlot>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <room>SE12-306</room>
+            <instructor>Stephen Fabiszewski</instructor>
+        </cBooking>
+    </aCourse>
+    <aCourse code="ACIT4770" name="Legal and Ethical Issues in IT">
+        <cBooking type="Tutorial">
+            <daySlot>Friday</daySlot>
+            <timeStart>1330</timeStart>
+            <timeEnd>1520</timeEnd>
+            <room>SE12-306</room>
+            <instructor>Trevor Lord</instructor>
+        </cBooking>
+    </aCourse>
+    <aCourse code="ACIT4850" name="Integrative Programming and Technologies">
+        <cBooking type="Lecture">
+            <daySlot>Wednesday</daySlot>
+            <timeStart>1230</timeStart>
+            <timeEnd>1420</timeEnd>
+            <room>SW3-1750</room>
+            <instructor>James Parry</instructor>
+        </cBooking>
+        <cBooking type="Lab">
+            <daySlot>Thursday</daySlot>
+            <timeStart>1330</timeStart>
+            <timeEnd>1520</timeEnd>
+            <room>SE12-308</room>
+            <instructor>James Parry</instructor>
+        </cBooking>
+    </aCourse>
+    <aCourse code="ACIT4910" name="Database Backup, Recovery and Tuning">
+        <cBooking type="Lecture">
+            <daySlot>Monday</daySlot>
+            <timeStart>1530</timeStart>
+            <timeEnd>1620</timeEnd>
+            <room>SW9-206</room>
+            <instructor>Richard Chau</instructor>
+        </cBooking>
+        <cBooking type="Lecture">
+            <daySlot>Thursday</daySlot>
+            <timeStart>0930</timeStart>
+            <timeEnd>1020</timeEnd>
+            <room>SW5-1840</room>
+            <instructor>Richard Chau</instructor>
+        </cBooking>
+        <cBooking type="Lab">
+            <daySlot>Thursday</daySlot>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <room>SE12-306</room>
+            <instructor>Richard Chau</instructor>
+        </cBooking>
+    </aCourse>
+</course>
