@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE day SYSTEM 'schedule.dtd'>
+
+<day>
+    <aDay weekday="Monday">
+        <dBooking>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <courseName>Content Management Systems Admin Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Medhat Elmasry</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1530</timeStart>
+            <timeEnd>1620</timeEnd>
+            <courseName>Database Recovery and Tuning Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Richard Chau</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1630</timeStart>
+            <timeEnd>1720</timeEnd>
+            <courseName>Content Mananagement Systems Admin Lecture</courseName>
+            <room>SE6-205</room>
+            <instructor>Medhat Elmasry</instructor>
+        </dBooking>
+    </aDay>
+    
+    <aDay weekday="Tuesday">
+        <dBooking>
+            <timeStart>830</timeStart>
+            <timeEnd>1020</timeEnd>
+            <courseName>Enterprise Systems Admin Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Bethany Edmunds</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1230</timeStart>
+            <timeEnd>1320</timeEnd>
+            <courseName>Content Management Systems Admin Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Medhat Elmasry</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1530</timeStart>
+            <timeEnd>1720</timeEnd>
+            <courseName>Enterprise Systems Admin Lecture</courseName>
+            <room>SW3-3615</room>
+            <instructor>Bethany Edmunds</instructor>
+        </dBooking>
+    </aDay>
+    
+    <aDay weekday="Wednesday">
+        <dBooking>
+            <timeStart>1230</timeStart>
+            <timeEnd>1420</timeEnd>
+            <courseName>Integrative Programming and Technologies Lecture</courseName>
+            <room>SW3-1750</room>
+            <instructor>James Parry</instructor>
+        </dBooking>
+    </aDay>
+    
+    <aDay weekday="Thursday">
+        <dBooking>
+            <timeStart>930</timeStart>
+            <timeEnd>1020</timeEnd>
+            <courseName>Database Backup, Recovery and Tuning Lecture</courseName>
+            <room>SW5-1840</room>
+            <instructor>Richard Chau</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <courseName>Database Backup, Recovery and Tuning Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Richard Chau</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1330</timeStart>
+            <timeEnd>1520</timeEnd>
+            <courseName>Integrative Programming and Technologies Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>James Parry</instructor>
+        </dBooking>
+    </aDay>
+    
+    <aDay weekday="Friday">
+        <dBooking>
+            <timeStart>830</timeStart>
+            <timeEnd>1020</timeEnd>
+            <courseName>Intro to Business Intelligence Lecture</courseName>
+            <room>SW9-206</room>
+            <instructor>Steve Fabiszewski</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1030</timeStart>
+            <timeEnd>1220</timeEnd>
+            <courseName>Intro to Business Intelligence Lab</courseName>
+            <room>SE12-306</room>
+            <instructor>Steve Fabiszewski</instructor>
+        </dBooking>
+        
+        <dBooking>
+            <timeStart>1330</timeStart>
+            <timeEnd>1520</timeEnd>
+            <courseName>Legal and Ethical Issues in IT</courseName>
+            <room>SE12-306</room>
+            <instructor>Trevor Lord</instructor>
+        </dBooking>
+    </aDay>
+</day>
